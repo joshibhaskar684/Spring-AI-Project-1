@@ -31,6 +31,10 @@ Make sure you have the following installed:
 - Java 17+
 - Maven 3+
 - Ollama → https://ollama.com
+---
+## Output
+
+<img width="1417" height="852" alt="image" src="https://github.com/user-attachments/assets/33457a04-f4f6-4aa6-a56e-4226f9156a03" />
 
 ---
 
@@ -41,4 +45,3 @@ Make sure you have the following installed:
 ```bash
 ollama pull llama3
 
-<img width="1417" height="852" alt="image" src="https://github.com/user-attachments/assets/33457a04-f4f6-4aa6-a56e-4226f9156a03" />
