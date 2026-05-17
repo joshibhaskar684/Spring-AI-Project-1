@@ -1,8 +1,8 @@
-spring:
-  ai:
-    model:
-      chat: google-genai
-    google:
-      genai:
-        api-key: ${GOOGLE_GENAI_API_KEY}
-
+#spring:
+#  ai:
+#    openai:
+#      base-url: https://openrouter.ai/api/v1
+#      chat:
+#        completions-path: /chat/completions
+  server:
+    port: 8082

@@ -5,13 +5,17 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ChatService {
+
     private final ChatClient chatClient;
 
-    public ChatService(ChatClient.Builder geminiChatClientBuilder) {
-        this.chatClient = geminiChatClientBuilder.build();
+    public ChatService(ChatClient.Builder openAiChatClientBuilder) {
+        this.chatClient = openAiChatClientBuilder.build();
     }
 
-    public String ask (String prompt){
-        return chatClient.prompt(prompt).call().content();
+    public String ask(String prompt) {
+        return chatClient
+                .prompt(prompt)
+                .call()
+                .content();
     }
 }
